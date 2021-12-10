@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 /* 
 ========================
 Reset basic css styles
@@ -8,4 +9,102 @@ Reset basic css styles
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
+/*
+Defining Css Variables
+*/
+:root{
+    --heading-color:rgb(173, 29, 3);
+    --text-button-color:rgb(207, 41, 12);
+    --border-color:rgb(250, 152, 4);
+    --button-bg-color-after:rgb(250, 225, 4);
+    --button-bg-color-before:rgb(236, 223, 103);
+    --facts-bg-color:rgb(209, 202, 140);
+}
+/*Setting the background color of the body*/
+body{
+    background-image: url("/assets/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Styling the heading of the page*/
+.container-heading h1{
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 1px;
+    color: var(--heading-color) ;
+    font-size: 4rem;
+}
+
+/*Styling the Container loading the image of sleepy cat*/
+.container-cat{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/*Styling the container having Load Image Button*/
+.container-btn-load-image{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+/*Styling the container having Show Facts Button*/
+.container-btn-show-facts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin: 1rem;
+}
+/*Styling the image in the container image*/
+.container-cat img{
+    width: 95%;
+    max-width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border-width: 2rem;
+    border-color: var(--border-color);
+}
+
+.container-facts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Styling the container showing the facts*/
+.facts {
+    background-color: var(--facts-bg-color);
+    padding: 1rem;
+    color: red;
+    width: 90%;
+    max-width: 900px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    margin: 1rem;
+  }
+  
+  .facts p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  /*Styling the buttons*/
+  button{
+        color: var(--text-button-color);
+        padding: 5px 10px;
+        border: 1px solid var(--border-color);
+        font-size: 1rem;
+        border-radius: 2px;
+        background-color: var(--button-bg-color-before);
+        min-width: 150px;
+        cursor: pointer;
+  }
+
+  button:hover{
+      background-color: var(--button-bg-color-after);
+  }

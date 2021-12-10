@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- below meta tags will set default image for our website when shared on social media -->
-    <meta property="og:image" content="https://img.favpng.com/0/23/2/siamese-cat-sphynx-cat-kitten-drawing-clip-art-png-favpng-sq9MtY4vzmPqCfGFynMdMVAUB.jpg" />
+    <meta
+      property="og:image"
+      content="https://img.favpng.com/0/23/2/siamese-cat-sphynx-cat-kitten-drawing-clip-art-png-favpng-sq9MtY4vzmPqCfGFynMdMVAUB.jpg"
+    />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="1024" />
@@ -14,12 +17,29 @@
     <!-- include css file/s -->
     <link rel="stylesheet" href="./styles/index.css" />
     <!-- set title that appears on the browser tab -->
-    <title>Project Neko | Starter(keep your own title here)</title>
+    <title>Project Neko | Starter(Sleepy Cats)</title>
   </head>
-  <body>
-    <!-- remove the below h1 tag and start working -->
-   <h1>This is where you will structure your webpage</h1>
+  <body onload="initial()">
+    <!-- html code -->
+    <!-- Container having the heading of the page-->
+    <div class="container-heading"><h1>Sleepy Cats</h1></div>
 
+    <div id="container-cat" class="container-cat">
+      <!-- Container showing the sleepy cat image -->
+    </div>
+    <!-- Button to load an image of the Sleepy Cat-->
+    <div class="container-btn-load-image">
+      <button id="load-image" class="btn load-image">Load Image</button>
+    </div>
+
+    <div id="container-facts" class="container-facts">
+      <!-- Containter showing the facts given by the sleepy Cat -->
+    </div>
+
+    <!-- Button to Show the Facts given by the Sleepy Cat -->
+    <div class="container-btn-show-facts">
+      <button id="show-facts" class="btn show-facts">Show Facts</button>
+    </div>
     <!-- load the javascript -->
     <script src="./scripts/main.js"></script>
   </body>
