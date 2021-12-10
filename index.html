@@ -14,11 +14,22 @@
     <!-- include css file/s -->
     <link rel="stylesheet" href="./styles/index.css" />
     <!-- set title that appears on the browser tab -->
-    <title>Project Neko | Starter(keep your own title here)</title>
+    <title>Project Neko | Starter(Cat-o-Mania)</title>
   </head>
   <body>
-    <!-- remove the below h1 tag and start working -->
-   <h1>This is where you will structure your webpage</h1>
+    <div id="heading" class="heading"><h1>Cat-o-Mania</h1></div>
+
+    <div id="container-image" class="container-image"></div>
+    
+    <div class="container-image-btn">
+      <button id="img-btn" type="button" class="btn btn-secondary" onclick="loadCatImage()">Load Image</button>
+    </div>
+
+    <div id="container-facts" class="container-facts"></div>
+
+    <div class="container-facts-btn">
+      <button id="fact-btn" type="button" class="btn btn-secondary" onclick="loadCatFact()">More Facts</button>  
+    </div>
 
     <!-- load the javascript -->
     <script src="./scripts/main.js"></script>
