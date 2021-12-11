@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- below meta tags will set default image for our website when shared on social media -->
-    <meta property="og:image" content="https://img.favpng.com/0/23/2/siamese-cat-sphynx-cat-kitten-drawing-clip-art-png-favpng-sq9MtY4vzmPqCfGFynMdMVAUB.jpg" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1024" />
-    <meta property="og:image:height" content="1024" />
-    <!-- add favicon(icon that appears on the browser tab) -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Neko</title>
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="shortcut icon" href="./assets/cat.png" type="image/x-icon" />
-    <!-- include css file/s -->
-    <link rel="stylesheet" href="./styles/index.css" />
-    <!-- set title that appears on the browser tab -->
-    <title>Project Neko | Starter(keep your own title here)</title>
-  </head>
-  <body>
-    <!-- remove the below h1 tag and start working -->
-   <h1>This is where you will structure your webpage</h1>
+    
+</head>
+<body>
+    <div class="heading">
+       <h1>Cats</h1> 
+    </div>
+    <hr>
+    <br>
 
-    <!-- load the javascript -->
-    <script src="./scripts/main.js"></script>
-  </body>
+    <div class="image">
+        <div id="fetchimage"></div>
+        <div >
+            <button id="imagebut" onclick="fetchCatImage()">Get Cat</button>
+        </div>
+    </div>
+
+    <div class="facts">
+        <div id="fetchfact"></div>
+        <div >
+            <button id="factbut" onclick="fetchCatFact()">Load More Facts</button>
+        </div>
+
+
+    </div>
+
+<script src="./scripts/main.js"></script>    
+
+
+    
+</body>
 </html>
