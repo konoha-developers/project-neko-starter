@@ -9,3 +9,70 @@ Reset basic css styles
     padding: 0;
     margin: 0;
 }
+body{
+background-color: rgba(2, 255, 150, 0.349);
+}
+.heading{
+    padding-left: 480px;
+}
+.heading h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: rgba(67, 148, 202, 0.746);
+    width: 250px;
+    margin: 20px;
+}
+.cat-container{
+   justify-content: center;
+   display: flex;
+   padding-bottom: 10px;
+}
+.cat-container img{
+    height: 300px;
+    width: 390px;
+}
+.fetch-image{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+#fetch-image-button{
+    padding: 10px;
+    width: 130px;
+    /* background-color: chartreuse; */
+}
+.cat-facts{
+    text-align: center;
+    padding: 10px;
+    padding-left: 140px;
+}
+.more-button{
+    justify-content: center;
+    display: flex;
+}
+#load-more-button{
+    padding: 7px;
+    width: 130px;
+    margin-bottom: 20px;
+    /* background-color: chartreuse; */
+}
+.fact-block{
+    padding: 10px;
+    border-style: solid;
+    border-color: brown;
+    width: 1000px;
+    /* padding-left: 70px; */
+    margin: 10px;
+}
+.fact-block p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+background-color: chartreuse;
+}
+button:hover{
+    background:yellow
+}
