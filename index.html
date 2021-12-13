@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- below meta tags will set default image for our website when shared on social media -->
-    <meta property="og:image" content="https://img.favpng.com/0/23/2/siamese-cat-sphynx-cat-kitten-drawing-clip-art-png-favpng-sq9MtY4vzmPqCfGFynMdMVAUB.jpg" />
+    <meta
+      property="og:image"
+      content="https://img.favpng.com/0/23/2/siamese-cat-sphynx-cat-kitten-drawing-clip-art-png-favpng-sq9MtY4vzmPqCfGFynMdMVAUB.jpg"
+    />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="1024" />
@@ -17,10 +20,33 @@
     <title>Project Neko | Starter(keep your own title here)</title>
   </head>
   <body>
-    <!-- remove the below h1 tag and start working -->
-   <h1>This is where you will structure your webpage</h1>
+ <!-- heading div -->
+ <div class="heading">
+  <h1>Cat Facts</h1>
+</div>
 
-    <!-- load the javascript -->
-    <script src="./scripts/main.js"></script>
+<div id="cat-container" class="cat-container">
+  <!-- cat image will be shown(rendered) here using javascript-->
+  
+</div>
+
+<!-- button to fetch image -->
+<div class="fetch-image">
+  <button id="fetch-image-button" onclick="fetchCatImage()">
+    Fetch New Image
+  </button>
+</div>
+
+<div id="cat-facts" class="cat-facts">
+  <!-- cat facts will be shown(rendered) here using javascript-->
+</div>
+
+<!-- button to load more facts -->
+<div class="more-button">
+  <button id="load-more-button" onclick="fetchCatFacts()">Load More</button>
+</div>
+
+<!-- load the javascript -->
+<script src="./scripts/main.js"></script>
   </body>
 </html>
