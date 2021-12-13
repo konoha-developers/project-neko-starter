@@ -1,11 +1,87 @@
-/* 
-========================
-Reset basic css styles
-========================
-*/
-
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+body {
+    background:#ffa781;
+  }
+  
+
+  .head h1 {
+    text-align: center;
+    padding: 1rem;
+    color: #5b0e2d;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px #0e0a0a;
+    font-size: 4rem;
+  }
+  
+  .cat-img {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+
+  .cat-img img {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  
+  .fetch-img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cat-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fact-block {
+    padding: 1rem;
+    color: black;
+    width: 90%;
+    max-width: 900px;
+    border: 1.5px solid #5b0e2d;
+    border-radius: 10px;
+    margin: 1rem;
+    background-color: #f8b699;
+  }
+  
+  .fact-block p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+   
+  }
+  
+  .load-more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+  }
+  
+  button {
+    color: rgb(255, 255, 177);
+    padding: 5px 10px;
+    border: 3px solid rgb(14, 13, 13);
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #5b0e2d;
+    min-width: 130px;
+    margin-bottom: 3rem;
+  }
+  
+  button:hover {
+    background: rgb(148, 147, 147);
+  }
