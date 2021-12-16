@@ -1,11 +1,33 @@
-/* 
-========================
-Reset basic css styles
-========================
-*/
+body {
+  background-color: rgb(144, 28, 190);
+  overflow-x: hidden;
+}
+.row {
+  margin-top: 10rem;
+}
+.fact {
+  padding: 1rem;
+  margin: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  background-color: rgba(233, 222, 241, 0.548);
+}
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+p {
+  font-size: 140%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.buttons {
+  margin-left: 40%;
+}
+.cat-image {
+  width: 95%;
+  max-width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  margin-left: 25rem;
+}
+.bt {
+  background-color: rgba(233, 222, 241, 0.548);
 }
